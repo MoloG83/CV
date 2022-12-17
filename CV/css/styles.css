@@ -1,0 +1,62 @@
+html * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #000000; /* Text colour */
+    background: rgb(255,194,116);
+    background: linear-gradient(0deg, rgba(255,194,116,1) 0%, rgba(255,253,236,1) 100%);
+  }
+
+h4{
+    color: black;
+}
+
+.navbar-main {
+    color: black;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+#imgPadding {
+    padding-top: 60px;
+    transition: transform .2s;
+}
+
+/*modal button alignment*/
+#buttonPadding {
+    padding-top: 70px;
+}
+
+/*certificates hover on*/
+#imgPadding:hover {
+    transform:scale(2.0);
+}
+
+#certs1:hover{
+    transform:scale(2.0);
+}
+
+#certs3:hover{
+    transform:scale(2.0);
+}
+
+/*images in hobbies section*/
+#hobbyCarousel .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden
+}
+/*'hero' image*/
+.img-container {
+    position: relative;
+}
+
+.heroImg {
+    width: 100%;
+}
+
